@@ -1,0 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Fantasque Sans Mono, "Courier New", monospace;
+}
+
+h2 {
+  color: chocolate;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
