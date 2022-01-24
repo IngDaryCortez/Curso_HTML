@@ -10,6 +10,17 @@
   <!-- descripcion no mas 265 caracteres -->
   <meta name="description" content="En esta pagina estamos aprendiendo los fundamen de html" />
   <link rel="stylesheet" href="style.css">
+  <link rel="canonical" href="http://tudominio.com/la-url-canonica">
+  <link rel="icon" href="Recurso/favicon.png">
+  <link rel="apple-touch-icon" href="Recurso/favicon.png">
+  <meta name="theme-color" content="#FF6600">
+  <meta property="og:title" content="Curso HTML">
+  <meta property="og:description" content="En esta pagina estamos aprendiendo los fundamen de html">
+  <meta property="og:image" content="http://tudominio.com/img/">
+  <meta property="og:url" content="http://tudominio.com/index.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@cuentadetwitter">
+
 
 </head>
 
@@ -39,6 +50,8 @@
     <li><a href="index.html#etiqueta-bloque-lineas">Etiqueta de bloque vs Etiqueta lineas</a></li>
     <li><a href="index.html#elemento-interactivos">Elementos elemento-interactivos</a></li>
     <li><a href="index.html#audio-video">Audio y video</a></li>
+    <li><a href="index.html#iframe"> iframe</a></li>
+    <li><a href="index.html#elemento-formulario">Elemento Formulario</a></li>
   </ul>
   <hr />
   <p>
@@ -49,6 +62,7 @@
   <h5>En cabezado de nivel 5</h5>
   <h6>En cabezado de nivel 6</h6>
   <a href="index.html#inicio">☝️</a>
+  <hr>
   <h2 id="texto-basico">Etiqueta texto basico</h2>
   <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
@@ -61,6 +75,7 @@
     e=mc<sup>2</sup>, H <sub>2</sub>O,<mark>marcatexto</mark>,
     <small>letra pequeñas</small>
   </p>
+  <hr>
   <a href="index.html#inicio">☝️</a>
   <br>
   <h2 id="texto-semantico">Etiqueta texto semantico</h2>
@@ -70,6 +85,7 @@
   <blockquote>Yo solo se que no se nada</blockquote>
   <cite>Socrate</cite>
   <br>
+  <hr>
   <a href="index.html#inicio">☝️</a>
   <hr />
   <h2 id="etiqueta-formateo">Etiqueta de formateo</h2>
@@ -86,6 +102,7 @@
       Esta Etiqueta es para formato codigo
     </code>
   </p>
+  <hr>
   <a href="index.html#inicio">☝️</a>
   <hr>
   <h2 id="etiqueta-structurales">Etiqueta semantica estructurales</h2>
@@ -107,6 +124,7 @@
 
   <img src="Recurso/PicsArt_11-06-06.46.52.png" alt="Tabla">
   <br>
+  <hr>
   <a href="index.html#inicio">☝️</a>
   <hr>
   <h2 id="svg">SVG</h2>
@@ -114,8 +132,7 @@
   <a href="index.html#inicio">☝️</a>
   <hr>
   <h2 id="figura">Figura</h2>
-  <img src="Recurso/img/periodic-table-of-html-elements.png" alt="Tabla Periodica de elementos HTML">
-  <hr>
+  <img src="Recurso/periodic-table-of-html-elements.png" alt="Tabla Periodica de elementos HTML">
   <figcaption>Tabla Periodica de elementos HTML</figcaption>
   <a href="index.html#inicio">☝️</a>
   <hr>
@@ -234,6 +251,7 @@
   <a href="https://api.whatsapp.com/send?phone=+50581932702&text=hola">Enlace Whatsapp</a>
   <a href="index.html#inicio">☝🏼</a>
   <br>
+  <hr>
   <h2 id="elemento-interactivos">Elementos interactibo</h2>
   <button onclick="alert('hola a echo click en el boton')">Este es un boton</button>
   <details open>
@@ -275,8 +293,161 @@
   </dialog>
   <br>
   <a href="index.html#inicio">☝🏼</a>
+  <hr>
   <h2 id="audio-video">Audio y Video</h2>
-  <audio src="Recurso/media/Feels-PatrickPatrikios.mp3" controls autoplay>Soy un audio</audio>
+  <audio src="Recurso/media/Feels-PatrickPatrikios.mp3" controls preload>Soy un audio</audio>
+  <video src="Recurso/media/kenai.mp4" controls poster="Recurso/kEnAi.svg"></video>
+  <br>
+  <a href="index.html#inicio">☝🏼</a>
+  <hr>
+  <h2 id="iframe">Iframes</h2>
+
+  <iframe src="Recurso/media/emmet-cheat-sheet.pdf" frameborder="0"></iframe>
+  <br>
+  <a href="index.html#inicio">☝🏼</a>
+  <hr>
+  <h2 id="elemento-formulario">Elementos Formulario</h2>
+  <h3>Elemento formulario</h3>
+  <input type="text">
+  <br>
+  <input type="checkbox">
+  <br>
+  <input type="radio">
+  <br>
+  <input type="date">
+  <br>
+  <input type="color">
+  <br>
+  <input type="button" value="boton">
+  <br>
+  <input type="submit">
+  <br>
+  <input type="reset">
+  <br>
+  <input type="file">
+  <br>
+  <input type="file" multiple>
+  <br>
+  <input type="hidden" name="idioma" value="es">
+  <br>
+  <input type="email">
+  <br>
+  <input type="number">
+  <br>
+  <input type="tel">
+  <br>
+  <input type="password">
+  <br>
+  <input type="search">
+  <br>
+  <textarea name="" cols="10" rows="10"></textarea>
+  <br>
+  <select name="" id="">
+    <option value="">HTML</option>
+    <option value="">CSS</option>
+    <option value="">JScrip</option>
+  </select>
+  <br><br>
+  <select name="" id="" multiple>
+    <option value="">HTML</option>
+    <option value="">CSS</option>
+    <option value="">JScrip</option>
+  </select>
+  <br>
+  <input type="text" placeholder="Escriba su nombre">
+  <br>
+  <h3>Ejemplo de formulario</h3>
+  <h4>formulario login</h4>
+  <form method="post" autocomplete="off">
+    <label for="usuario">Usuario</label>
+    <input type="text" name="usuario" id="usuario" placeholder="Escriba su usuario" pattern="^[A-Za-z]+$"
+      title="El campo solo acepta letra" required>
+    <br>
+    <label for="password">contraseña</label>
+    <input type="password" name="password" id="password" placeholder="Escriba su contraseña" required>
+    <br>
+    <input type="submit">
+    <br>
+    <input type="reset">
+    <a href="index.html#inicio">☝🏼</a>
+    <h3>Seleccion multiple</h3>
+  </form>
+  <form>
+    <p>Elige tu idioma</p>
+    <select name="idioma" required>
+      <option value="">Elige una opcion</option>
+      <option value="es">Español</option>
+      <option value="en">Ingles</option>
+      <option value="fr">Frances</option>
+      <option value="it">Italiano</option>
+      <option value="pt">Portugues</option>
+    </select>
+    <p>Elige tu leguaje de programacion favorito</p>
+    <input type="radio" name="lenguaje" id="radio_js" value="js" required>
+    <label for="radio_js">JavaScrip</label>
+    <input type="radio" name="lenguaje" id="radio_py" value="py">
+    <label for="radio_py">Python</label>
+    <input type="radio" name="lenguaje" id="radio_php" value="php">
+    <label for="radio_php">PHP</label>
+
+    <p>Elige tu intereces</p>
+    <label>
+      <input type="checkbox" name="intereces" value="deportes">
+      Deportes
+    </label>
+    <label>
+      <input type="checkbox" name="intereces" value="finanzas">
+      Finanzas
+    </label>
+    <label>
+      <input type="checkbox" name="intereces" value="salud">
+      Salud
+    </label>
+    <label>
+      <input type="checkbox" name="intereces" value="politica">
+      Politica
+    </label>
+    <label>
+      <input type="checkbox" name="intereces" value="religion">
+      Religion
+    </label>
+
+    <input type="submit">
+    <br>
+    <input type="reset">
+  </form>
+  <form action="https://formsubmit.co/your@email.com">
+    <input type="text" name="nombre" placeholder="Escriba su nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+      title="Solo acepta Nombre" required>
+    <br>
+    <input type="email" name="correo" placeholder="Escriba su correo" pattern=" ^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$"
+      title="Correo invalido" required>
+    <br>
+    <textarea name="comentario" cols="30" rows="10" required></textarea>
+    <br>
+    <input type="submit">
+  </form>
+  <a href="index.html#inicio">☝🏼</a>
+  <h2 id="dataattributes">Data Attributes</h2>
+  <ul>
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ul>
+  <br>
+  <a href="index.html#inicio">☝🏼</a>
+  <h2>Accesibilidad WEB</h2>
+  <h3 role="title">Las estaciones del año</h3>
+  <ul role="list">
+    <li role="listitem">Primavera</li>
+    <li role="listitem">Verano</li>
+    <li role="listitem">Otoño</li>
+    <li role="listitem">Invierno</li>
+  </ul>
+  <a role="link" aria-label="En este enlace encontraras mas informacion sobre las estaciones del año" href="#"
+    target="_blank">Mas informacion</a>
+
   <a href="index.html#inicio">☝🏼</a>
 
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
